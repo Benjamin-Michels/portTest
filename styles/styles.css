@@ -9,7 +9,7 @@
     width: 100%;
     background: linear-gradient(to right, #43009a, #800024, #43009a);
     background-size: 200%;
-    animation: animate 2s linear infinite;
+    animation: animate 10s linear infinite;
     align-items: center;
     justify-content: center;
 }
