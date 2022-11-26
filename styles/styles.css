@@ -9,7 +9,7 @@
     width: 100%;
     background: linear-gradient(to right, #43009a, #800024, #43009a);
     background-size: 200%;
-    animation: animate 10s linear infinite;
+    animation: animate 15s linear infinite;
     align-items: center;
     justify-content: center;
 }
@@ -21,13 +21,13 @@
     border-radius: 2rem;
     display: flex;
     border: 2px solid rgba(255, 255, 255, .2);
-    box-shadow: 0 10px 30px rgba(5, 5, 30, 1);
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
     margin: auto;
+    box-shadow: 0 10px 30px rgba(5, 5, 30, 1);
 }
 
 .sidebar {
@@ -68,6 +68,25 @@ hr {
     border-radius: 2rem;
     width: 50%;
     margin: auto;
+}
+
+.button {
+    opacity: .5;
+    margin-top: 15%;
+    transform: translate(10%);
+    justify-content: center;
+    width: 85%;
+    height: 40px;
+    border-radius: 5rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgba(162, 162, 162, 0.1);
+    box-shadow: 0 0 20px 5px rgb(222, 222, 222);
 }
 
 @keyframes animate {
